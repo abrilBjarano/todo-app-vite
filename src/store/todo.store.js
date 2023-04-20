@@ -7,13 +7,10 @@ export const Filters = {
     Pending: 'Pending'
 }
 
+
 const state = {
     todos: [
-        new Todo('Piedra del alma'),
-        new Todo('Piedra del infinito'),
-        new Todo('Piedra del tiempo'),
-        new Todo('Piedra del poder'),
-        new Todo('Piedra del realidad'),
+        
     ],
     filter: Filters.All,
 }
